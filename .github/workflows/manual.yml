@@ -18,9 +18,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Pwd
-      run: pwd && ls
+    - name: Ls
+      run: ls
       shell: bash
     - name: Compress the preset
-      run: zip -rv zip/franchises_in_Korea.zip src
+      working-directory: "."
+      run: zip -rv ./zip/franchises_in_Korea.zip ./src
       shell: bash
