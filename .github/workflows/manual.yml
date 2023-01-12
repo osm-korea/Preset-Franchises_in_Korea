@@ -18,10 +18,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Ls
-      run: ls
-      shell: bash
+    - uses: actions/checkout@v3
+      with:
+        ref: master
     - name: Compress the preset
-      working-directory: "src"
-      run: zip -rq ../zip/franchises_in_Korea.zip .
+      run: zip -rq ./zip/franchises_in_Korea.zip ./src
       shell: bash
