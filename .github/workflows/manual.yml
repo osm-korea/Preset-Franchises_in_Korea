@@ -20,5 +20,5 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Compress the preset
-      run: zip ./zip/franchises_in_Korea.zip -r "./Franchises in Korea"
+      run: zip -r ./zip/franchises_in_Korea.zip "./Franchises\ in\ Korea"
       shell: bash
