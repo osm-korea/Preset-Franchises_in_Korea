@@ -22,6 +22,6 @@ jobs:
       run: ls
       shell: bash
     - name: Compress the preset
-      working-directory: "."
-      run: zip -rq ./zip/franchises_in_Korea.zip ./src/*
+      working-directory: "./src"
+      run: zip -rq ../zip/franchises_in_Korea.zip .
       shell: bash
