@@ -22,6 +22,10 @@ jobs:
       with:
         ref: master
     
+    - name: Remove franchises_in_Korea.zip
+      run: rm ./zip/franchises_in_Korea.zip
+      shell: bash
+    
     - name: Compress the preset
       working-directory: "./src"
       run: zip -rv "../zip/franchises_in_Korea.zip" ./Franchises_in_Korea FranchisesInKorea.xml LICENSE
