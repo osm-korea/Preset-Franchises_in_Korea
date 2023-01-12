@@ -596,14 +596,14 @@ If you want to share your custom tags with other users, please look through the 
 		<label text="※ Do not apply this for NH Nonghyup 'Bank'!" ko.text="※ 농협중앙회(NH농협'은행')에는 이 프리셋을 사용하지 마세요!"/>
 		<space />
 		<key key="amenity" value="bank"/>
-		<key key="brand" value="OO농협"/>
-		<key key="brand:en" value="OO Nonghyup"/>
-		<key key="operator" value="OO농업협동조합"/>
-		<key key="operator:en" value="OO Agricultural Cooperative"/>
 		
 		<text default="OO농협" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
 		<text default="OO농협" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
 		<text default="" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<text default="OO농협" key="brand" text="Brand(Korean)" ko.text="브랜드명(한국어)"/>
+		<text default="OO Nonghyup" key="brand:en" text="Brand(English)" ko.text="브랜드명(영어)"/>
+		<text default="OO농협" key="operetor" text="Operetor(Korean)" ko.text="관리 주체(한국어)"/>
+		<text default="OO Nonghyup" key="operetor:en" text="Operetor(English)" ko.text="관리 주체(영어)"/>
         <reference ref="branch"/>
 		<reference ref="level_1_default"/>
 		<combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="Mo-Fr 09:00-16:30" default="Mo-Fr 09:00-16:30"/>
