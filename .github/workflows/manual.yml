@@ -23,7 +23,8 @@ jobs:
         ref: master
     
     - name: Compress the preset
-      run: zip -rv "./zip/franchises_in_Korea.zip" ./src/*
+      working-directory: "./src"
+      run: zip -rv "../zip/franchises_in_Korea.zip" ./Franchises_in_Korea FranchisesInKorea.xml LICENSE
       shell: bash
   
     - name: Commit and Push
