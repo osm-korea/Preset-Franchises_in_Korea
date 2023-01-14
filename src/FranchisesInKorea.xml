@@ -394,7 +394,10 @@ baselanguage="ko">
 		<reference ref="internet"/>
 		<reference ref="wi-fi"/>
 		
-        <key key="website" value="http://twozzim.com/"/>
+        <key key="website" value="http://twozzim.com"/>
+		<key key="contect:instagram" value="twozzim"/>
+		<key key="contect:facebook" value="https://www.facebook.com/twoozzim"/>
+		<key key="contect:youtube" value="https://www.youtube.com/c/%EB%91%90%EC%B0%9C"/>
 	</item>
 </group>
 
