@@ -58,12 +58,20 @@ baselanguage="ko">
 
 <!--────────────────────────────────────────────────────────────────────────────-->
 
+<chunk id="takeaway_default">
+	<combo key="takeaway" text="Takeaway" ko.text="테이크 아웃" values="yes,only" ko.display_values="가능,반드시 테이크 아웃해야 함" default="yes"/>
+</chunk>
+
 <chunk id="takeaway">
 	<combo key="takeaway" text="Takeaway" ko.text="테이크 아웃" values="yes,only" ko.display_values="가능,반드시 테이크 아웃해야 함"/>
 </chunk>
 
 <chunk id="takeaway_including_no">
 	<combo key="takeaway" text="Takeaway" ko.text="테이크 아웃" values="yes,only,no" ko.display_values="가능,반드시 테이크 아웃해야 함,불가능"/>
+</chunk>
+
+<chunk id="delivery_default">
+	<combo key="delivery" text="Delivery" ko.text="배달" values="yes,only,no" ko.display_values="가능,반드시 배달시켜야 함,불가능" default="yes"/>
 </chunk>
 
 <chunk id="delivery">
@@ -154,8 +162,8 @@ baselanguage="ko">
         <text default="Hansot Lunch" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -281,8 +289,8 @@ baselanguage="ko">
         <reference ref="branch"/>
 		<key key="name:ja" value="キムパプ天国"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -313,8 +321,8 @@ baselanguage="ko">
         <text default="Sinjeon Topokki" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -346,8 +354,8 @@ baselanguage="ko">
         <reference ref="branch"/>
 		<key key="name:ja" value="ジョーズトッポギ"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -381,8 +389,8 @@ baselanguage="ko">
         <text default="Twozzim" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -1511,8 +1519,8 @@ baselanguage="ko">
         <text default="Bonjuk" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -1541,8 +1549,8 @@ baselanguage="ko">
         <text default="JukStory" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2037,8 +2045,8 @@ baselanguage="ko">
 		<key key="name:zh" value="赛百味"/>
 		<key key="int_name" value="Subway"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,10:00-24:00,24/7"/>
 		<reference ref="wheelchair"/>
@@ -2073,8 +2081,8 @@ baselanguage="ko">
 		<key key="name:zh" value="肯德基"/>
 		<key key="int_name" value="KFC"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,10:00-24:00,24/7"/>
 		<reference ref="wheelchair"/>
@@ -2108,8 +2116,8 @@ baselanguage="ko">
 		<key key="name:ja" value="ロッテリア"/>
 		<key key="name:zh" value="乐天利"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00,10:00-22:00,10:00-24:00"/>
 		<reference ref="wheelchair"/>
@@ -2142,8 +2150,8 @@ baselanguage="ko">
         <reference ref="branch"/>
 		<key key="name:ja" value="マムズタッチ"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,11:00-23:00,11:00-22:30,12:00-23:30,12:00-23:00"/>
 		<reference ref="wheelchair"/>
@@ -2178,8 +2186,8 @@ baselanguage="ko">
 		<key key="name:zh" value="麦当劳"/>
 		<key key="int_name" value="McDonald's"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00,10:00-22:00,07:00-02:00,24/7"/>
 		<reference ref="wheelchair"/>
@@ -2213,8 +2221,8 @@ baselanguage="ko">
 		<key key="name:ja" value="モスバーガー"/>
 		<key key="name:zh" value="摩斯漢堡"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00,10:00-22:00,10:00-24:00"/>
 		<reference ref="wheelchair"/>
@@ -2249,8 +2257,8 @@ baselanguage="ko">
 		<key key="name:zh" value="漢堡王"/>
 		<key key="int_name" value="Burger King"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,10:00-22:00,10:00-24:00"/>
 		<reference ref="wheelchair"/>
@@ -2285,8 +2293,8 @@ baselanguage="ko">
 		<key key="name:zh" value="大力水手炸雞"/>
 		<key key="int_name" value="Popeyes"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
@@ -2318,8 +2326,8 @@ baselanguage="ko">
 		<text default="60CHICHKEN" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2348,8 +2356,8 @@ baselanguage="ko">
         <text default="BBQ Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="16:00-02:00,17:00-23:00,12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2380,8 +2388,8 @@ baselanguage="ko">
         <text default="BHC Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2411,8 +2419,8 @@ baselanguage="ko">
 		<key key="name:zh" value="肯德基"/>
 		<key key="int_name" value="KFC"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,10:00-24:00,24/7"/>
 		<reference ref="wheelchair"/>
@@ -2442,8 +2450,8 @@ baselanguage="ko">
         <text default="강정이기가막혀" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="강정이기가막혀" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2472,8 +2480,8 @@ baselanguage="ko">
         <text default="KyoChon Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2504,8 +2512,8 @@ baselanguage="ko">
         <text default="Goobne Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2536,8 +2544,8 @@ baselanguage="ko">
         <text default="Nene Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2568,8 +2576,8 @@ baselanguage="ko">
         <text default="Norang Tongdak" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2598,8 +2606,8 @@ baselanguage="ko">
         <text default="Tang Tang Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2629,8 +2637,8 @@ baselanguage="ko">
         <text default="Toreore" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2659,8 +2667,8 @@ baselanguage="ko">
         <text default="Ttobongee Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2688,8 +2696,8 @@ baselanguage="ko">
         <text default="Lims Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2718,8 +2726,8 @@ baselanguage="ko">
         <text default="Mom's Touch" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,11:00-23:00,11:00-22:30,12:00-23:30,12:00-23:00"/>
 		<reference ref="wheelchair"/>
@@ -2751,8 +2759,8 @@ baselanguage="ko">
         <text default="Mexican Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2781,8 +2789,8 @@ baselanguage="ko">
         <text default="Mexicana" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2810,8 +2818,8 @@ baselanguage="ko">
         <text default="Mexican Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2839,8 +2847,8 @@ baselanguage="ko">
         <text default="Boor Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2869,8 +2877,8 @@ baselanguage="ko">
         <text default="Thunder Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2899,8 +2907,8 @@ baselanguage="ko">
         <text default="Ajuker Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2929,8 +2937,8 @@ baselanguage="ko">
         <text default="Jangmonim Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2959,8 +2967,8 @@ baselanguage="ko">
         <text default="Gcova Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -2989,8 +2997,8 @@ baselanguage="ko">
         <reference ref="branch"/>
 		<key key="name:zh" value="妻家鸡"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3019,8 +3027,8 @@ baselanguage="ko">
         <text default="Chicken Mania" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3048,8 +3056,8 @@ baselanguage="ko">
         <text default="Tiba Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3081,8 +3089,8 @@ baselanguage="ko">
 		<key key="name:zh" value="大力水手炸雞"/>
 		<key key="int_name" value="Popeyes"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
 		<reference ref="wheelchair"/>
@@ -3115,8 +3123,8 @@ baselanguage="ko">
         <reference ref="branch"/>
 		<key key="name:zh" value="百利家乐"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3149,8 +3157,8 @@ baselanguage="ko">
         <text default="Pizza Nation Chicken Girl" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3179,8 +3187,8 @@ baselanguage="ko">
         <text default="Hosigi" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3209,8 +3217,8 @@ baselanguage="ko">
         <text default="Hochicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
 		<reference ref="wheelchair"/>
 		
@@ -3239,8 +3247,8 @@ baselanguage="ko">
 		<text default="Nantapizza" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
-        <reference ref="takeaway"/>
-		<reference ref="delivery"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="11:30-22:00"/>
 		<reference ref="wheelchair"/>
 		
