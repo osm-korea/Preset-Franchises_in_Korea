@@ -2845,6 +2845,7 @@ baselanguage="ko">
         <text default="부리나치킨" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="부리나치킨" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Burina Chicken" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<reference ref="branch"/>
         <reference ref="level_1_default"/>
         <reference ref="takeaway_default"/>
 		<reference ref="delivery_default"/>
