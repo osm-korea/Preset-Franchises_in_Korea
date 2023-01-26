@@ -3412,7 +3412,7 @@ baselanguage="ko">
 		<reference ref="internet"/>
 		<reference ref="wi-fi"/>
 		
-        <key key="website" value="http://cu.bgfretail.com"/>
+        <key key="website" value="https://cu.bgfretail.com"/>
         <key key="brand:wikidata" value="Q12580836"/>
         <key key="brand:wikipedia" value="ko:CU (편의점)"/>
     </item>
