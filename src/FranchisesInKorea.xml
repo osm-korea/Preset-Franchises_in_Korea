@@ -435,11 +435,43 @@ baselanguage="ko">
 		<reference ref="internet"/>
 		<reference ref="wi-fi"/>
 		
-        <key key="website" value="https://www.chaesundang.co.kr/"/>
+        <key key="website" value="https://www.chaesundang.co.kr"/>
 		<key key="brand:wikidata" value="Q12618763"/>
 		<key key="brand:wikipedia" value="ko:채선당"/>
 		<key key="contect:instagram" value="chaesundang"/>
 		<key key="contect:facebook" value="https://www.facebook.com/chaesundang"/>
+	</item>
+	
+	<item icon="presets/food/restaurant.svg" name="Ebadom" ko.name="이바돔감자탕" type="node,relation,closedway,multipolygon">
+		<label text="Ebadom" ko.text="이바돔감자탕"/>
+		<space />
+        <key key="amenity" value="restaurant"/>
+        <key key="cuisine" value="Korean"/>
+        <key key="brand" value="이바돔감자탕"/>
+        <key key="brand:en" value="Ebadom"/>
+        <key key="operator" value="(주)이바돔"/>
+		
+        <text default="이바돔감자탕" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="이바돔감자탕" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Ebadom" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1"/>
+        <reference ref="takeaway"/>
+		<reference ref="delivery_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="https://www.ebadom.com"/>
+		<key key="brand:wikidata" value="Q12611468"/>
+		<key key="brand:wikipedia" value="ko:이바돔"/>
 	</item>
 </group>
 
