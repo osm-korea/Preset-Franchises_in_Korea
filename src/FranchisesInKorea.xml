@@ -731,7 +731,7 @@ baselanguage="ko">
 		
 		<text default="OO농협" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
 		<text default="OO농협" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
-		<text default="" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<text default="OO Nonghyup" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
 		<text default="OO농협" key="brand" text="Brand(Korean)" ko.text="브랜드명(한국어)"/>
 		<text default="OO Nonghyup" key="brand:en" text="Brand(English)" ko.text="브랜드명(영어)"/>
 		<text default="OO농협" key="operetor" text="Operetor(Korean)" ko.text="관리 주체(한국어)"/>
