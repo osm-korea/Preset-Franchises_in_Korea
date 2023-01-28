@@ -10,7 +10,7 @@ ko.shortdescription="한국의 프랜차이즈"
 ko.link="https://wiki.openstreetmap.org/wiki/ko.Korean_presets"
 link="https://wiki.openstreetmap.org/wiki/Korean_presets"
 icon="Franchises_in_Korea/icon/South_Korea.svg"
-baselanguage="ko">
+baselanguage="en">
 
 <group icon="Franchises_in_Korea/icon/South_Korea.svg" name="Franchises in Korea" ko.name="한국의 프랜차이즈">
 <chunk id="unofficial_en">
