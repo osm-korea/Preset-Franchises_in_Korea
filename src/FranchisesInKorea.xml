@@ -1741,8 +1741,8 @@ baselanguage="en">
 		
         <text default="메가MGC커피" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="메가MGC커피" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
-        <text default="메가커피" key="alt_name" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
-        <text default="메가커피" key="alt_name:ko" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
+        <text default="메가커피" key="short_name" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
+        <text default="메가커피" key="short_name:ko" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
         <text default="Mega MGC Coffee" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
 		<reference ref="branch"/>
         <reference ref="level_1_default"/>
