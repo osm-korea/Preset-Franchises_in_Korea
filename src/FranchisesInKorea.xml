@@ -404,6 +404,36 @@ baselanguage="en">
 
 
 <group icon="presets/food/restaurant.svg" name="Restaurant" ko.name="식당">
+	<item icon="presets/food/restaurant.svg" name="kimbro" ko.name="김형제 고기의철학" type="node,relation,closedway,multipolygon">
+		<label text="kimbro" ko.text="김형제 고기의철학"/>
+		<space />
+        <key key="amenity" value="restaurant"/>
+        <key key="cuisine" value="barbecue"/>
+        <key key="brand" value="김형제 고기의철학"/>
+        <key key="brand:en" value="kimbro"/>
+        <key key="operator" value="(주)킴스브라더스"/>
+		
+        <text default="김형제 고기의철학" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="김형제 고기의철학" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="kimbro" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="http://kimbro.co.kr"/>
+		<key key="contect:instagram" value="kimsbro_official"/>
+	</item>
+	
 	<item icon="presets/food/restaurant.svg" name="Twozzim" ko.name="두찜" type="node,relation,closedway,multipolygon">
 		<label text="Gamtan Topokki" ko.text="두찜"/>
 		<space />
