@@ -335,7 +335,7 @@ baselanguage="en">
         <key key="brand:wikipedia" value="ko:김밥천국"/>
 	</item>
 	
-	<item icon="presets/food/restaurant.svg" name="Myungrang Hotdog" ko.name="명랑핫도그" type="node,relation,closedway,multipolygon">
+	<item icon="Myungrang Hotdog" name="Myungrang Hotdog" ko.name="명랑핫도그" type="node,relation,closedway,multipolygon">
 		<label text="Myungrang Hotdog" ko.text="명랑핫도그"/>
 		<space />
         <key key="amenity" value="fast_food"/>
