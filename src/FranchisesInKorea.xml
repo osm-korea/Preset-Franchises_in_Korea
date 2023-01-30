@@ -1731,6 +1731,40 @@ baselanguage="en">
         <key key="brand:wikipedia" value="ko:달콤커피"/>
     </item>
 	
+	<item icon="presets/food/cafe.svg" name="Mega MGC Coffee" ko.name="메가MGC커피(메가커피)" type="node,relation,closedway,multipolygon">
+        <label text="Mega MGC Coffee" ko.text="메가MGC커피(메가커피)"/>
+        <key key="amenity" value="cafe"/>
+        <key key="cuisine" value="coffee_shop"/>
+        <key key="brand" value="메가MGC커피"/>
+        <key key="brand:en" value="Mega MGC Coffee"/>
+        <key key="operator" value="(주)앤하우스"/>
+		
+        <text default="메가MGC커피" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="메가MGC커피" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="메가커피" key="alt_name" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
+        <text default="메가커피" key="alt_name:ko" text="Name(Korean)" ko.text="대체 점포명(한국어)"/>
+        <text default="Mega MGC Coffee" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway"/>
+		<reference ref="delivery"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00,07:00-23:00,08:00-23:00"/>
+		<reference ref="wheelchair"/>
+		<reference ref="outdoor_seating"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="https://www.mega-mgccoffee.com/"/>
+		<key key="contect:instagram" value="mega_mgc_coffee"/>
+		<key key="contect:facebook" value="https://www.facebook.com/megamgccoffee1"/>
+    </item>
+	
     <item icon="presets/food/cafe.svg" name="Paik's Coffee" ko.name="빽다방" type="node,relation,closedway,multipolygon">
         <label text="Paik's Coffee" ko.text="빽다방"/>
         <key key="amenity" value="cafe"/>
