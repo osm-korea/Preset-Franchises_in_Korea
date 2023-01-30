@@ -1663,6 +1663,42 @@ baselanguage="en">
 
 
 <group icon="presets/food/cafe.svg" name="Cafe" ko.name="카페">
+	<item icon="presets/food/cafe.svg" name="Gong Cha" ko.name="공차" type="node,relation,closedway,multipolygon">
+        <label text="Gong Cha" ko.text="공차"/>
+        <key key="amenity" value="cafe"/>
+        <key key="cuisine" value="coffee_shop"/>
+        <key key="brand" value="공차"/>
+        <key key="brand:en" value="Gong Cha"/>
+        <key key="operator" value="(주)공차코리아"/>
+        <key key="operator:en" value="(C)GONGCHA KOREA CO.,LTD"/>
+		
+        <text default="공차" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="공차" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Gong Cha" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway"/>
+		<reference ref="delivery"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00,07:00-23:00,08:00-23:00"/>
+		<reference ref="wheelchair"/>
+		<reference ref="outdoor_seating"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="https://www.gong-cha.co.kr"/>
+        <key key="brand:wikidata" value="Q5581670"/>
+        <key key="brand:wikipedia" value="ko:공차"/>
+		<key key="contect:instagram" value="gongcha.official"/>
+		<key key="contect:facebook" value="https://www.facebook.com/GongCha.Korea"/>
+		<key key="contect:kakaotalk" value="https://pf.kakao.com/_Cywfxb"/>
+    </item>
+	
 	<item icon="presets/food/cafe.svg" name="dal.komm coffee" ko.name="달콤커피" type="node,relation,closedway,multipolygon">
         <label text="dal.komm coffee" ko.text="달콤커피"/>
         <key key="amenity" value="cafe"/>
@@ -1672,9 +1708,9 @@ baselanguage="en">
         <key key="operator" value="(주)달콤"/>
 		
         <text default="달콤커피" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="달콤커피" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="dal.komm coffee" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
-        <text default="달콤커피" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <reference ref="level_1_default"/>
         <reference ref="takeaway_including_no"/>
 		<reference ref="delivery"/>
@@ -1704,9 +1740,9 @@ baselanguage="en">
         <key key="operator" value="(주)더본코리아"/>
 		
         <text default="빽다방" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="빽다방" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Paik's Coffee" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
-        <text default="빽다방" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <reference ref="level_1_default"/>
         <reference ref="takeaway_including_no"/>
 		<reference ref="delivery"/>
@@ -1736,9 +1772,9 @@ baselanguage="en">
         <key key="operator" value="(주)설빙"/>
 		
         <text default="설빙" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="설빙" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Sulbing" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
-        <text default="설빙" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <reference ref="level_1_default"/>
         <reference ref="takeaway_including_no"/>
 		<reference ref="delivery"/>
@@ -1768,9 +1804,9 @@ baselanguage="en">
         <key key="operator" value="(주)스타벅스커피 코리아"/>
 		
         <text default="스타벅스" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="스타벅스" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Starbucks" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
-        <text default="스타벅스" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
 		<key key="name:ja" value="スターバックス"/>
 		<key key="name:zh" value="星巴克"/>
 		<key key="name:ru" value="Старбакс"/>
