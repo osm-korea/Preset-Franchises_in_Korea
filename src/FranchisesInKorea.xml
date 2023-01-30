@@ -403,6 +403,43 @@ baselanguage="en">
 </group>
 
 
+<group icon="presets/food/bar.svg" name="Bar/Pub" ko.name="술집(주점)">
+	<item icon="presets/food/bar.svg" name="Yukjun Beer" ko.name="역전할머니맥주" type="node,relation,closedway,multipolygon">
+		<label text="Yukjun Beer" ko.text="역전할머니맥주"/>
+		<space />
+        <key key="amenity" value="pub"/>
+        <key key="food" value="yes"/>
+        <key key="cuisine" value="japanese"/>
+        <key key="brand" value="역전할머니맥주"/>
+        <key key="brand:en" value="Yukjun Beer"/>
+        <key key="operator" value="(주)역전FnC"/>
+        <key key="operator:en" value="Yukjun FnC"/>
+		
+        <text default="역전할머니맥주" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="역전할머니맥주" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Yukjun Beer" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_including_no"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="17:30-03:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="http://yukjunfnc.kr"/>
+		<key key="contect:instagram" value="yukjunbeer_official"/>
+		<key key="contect:facebook" value="https://www.facebook.com/yukjunbeerNo.1"/>
+		<key key="contect:youtube" value="https://www.youtube.com/channel/UCWhIFe1sZZdRsJIauYzdQOw"/>
+	</item>
+</group>
+
+
 <group icon="presets/food/restaurant.svg" name="Restaurant" ko.name="식당">
 	<item icon="presets/food/restaurant.svg" name="kimbro" ko.name="김형제 고기의철학" type="node,relation,closedway,multipolygon">
 		<label text="kimbro" ko.text="김형제 고기의철학"/>
