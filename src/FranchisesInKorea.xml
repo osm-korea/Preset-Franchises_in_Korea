@@ -2,7 +2,7 @@
 <presets
 xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 author="LuxuryCoop"
-version="1_2023-01-30"
+version="1_2023-02-06"
 description="Main franchises in South Korea"
 ko.description="대한민국 내의 주요 프랜차이즈"
 shortdescription="Franchises in Korea"
@@ -363,8 +363,8 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="https://myungranghotdog.com"/>
-		<key key="contect:instagram" value="myungranghotdog_official"/>
-		<key key="contect:facebook" value="https://www.instagram.com/myungrang_sidae"/>
+		<key key="contact:instagram" value="myungranghotdog_official"/>
+		<key key="contact:facebook" value="https://www.instagram.com/myungrang_sidae"/>
 	</item>
 	
 	<item icon="presets/food/restaurant.svg" name="Sinjeon Topokki" ko.name="신전떡볶이" type="node,relation,closedway,multipolygon">
@@ -465,9 +465,9 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="http://yukjunfnc.kr"/>
-		<key key="contect:instagram" value="yukjunbeer_official"/>
-		<key key="contect:facebook" value="https://www.facebook.com/yukjunbeerNo.1"/>
-		<key key="contect:youtube" value="https://www.youtube.com/channel/UCWhIFe1sZZdRsJIauYzdQOw"/>
+		<key key="contact:instagram" value="yukjunbeer_official"/>
+		<key key="contact:facebook" value="https://www.facebook.com/yukjunbeerNo.1"/>
+		<key key="contact:youtube" value="https://www.youtube.com/channel/UCWhIFe1sZZdRsJIauYzdQOw"/>
 	</item>
 </group>
 
@@ -500,7 +500,7 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="http://kimbro.co.kr"/>
-		<key key="contect:instagram" value="kimsbro_official"/>
+		<key key="contact:instagram" value="kimsbro_official"/>
 	</item>
 	
 	<item icon="presets/food/restaurant.svg" name="Twozzim" ko.name="두찜" type="node,relation,closedway,multipolygon">
@@ -531,9 +531,9 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="http://twozzim.com"/>
-		<key key="contect:instagram" value="twozzim"/>
-		<key key="contect:facebook" value="https://www.facebook.com/twoozzim"/>
-		<key key="contect:youtube" value="https://www.youtube.com/c/%EB%91%90%EC%B0%9C"/>
+		<key key="contact:instagram" value="twozzim"/>
+		<key key="contact:facebook" value="https://www.facebook.com/twoozzim"/>
+		<key key="contact:youtube" value="https://www.youtube.com/c/%EB%91%90%EC%B0%9C"/>
 	</item>
 	
 	<item icon="presets/food/restaurant.svg" name="Saemaul Restaurant" ko.name="새마을식당" type="node,relation,closedway,multipolygon">
@@ -598,8 +598,8 @@ baselanguage="en">
         <key key="website" value="https://www.chaesundang.co.kr"/>
 		<key key="brand:wikidata" value="Q12618763"/>
 		<key key="brand:wikipedia" value="ko:채선당"/>
-		<key key="contect:instagram" value="chaesundang"/>
-		<key key="contect:facebook" value="https://www.facebook.com/chaesundang"/>
+		<key key="contact:instagram" value="chaesundang"/>
+		<key key="contact:facebook" value="https://www.facebook.com/chaesundang"/>
 	</item>
 	
 	<item icon="presets/food/restaurant.svg" name="Ebadom" ko.name="이바돔감자탕" type="node,relation,closedway,multipolygon">
@@ -1825,9 +1825,9 @@ baselanguage="en">
         <key key="website" value="https://www.gong-cha.co.kr"/>
         <key key="brand:wikidata" value="Q5581670"/>
         <key key="brand:wikipedia" value="ko:공차"/>
-		<key key="contect:instagram" value="gongcha.official"/>
-		<key key="contect:facebook" value="https://www.facebook.com/GongCha.Korea"/>
-		<key key="contect:kakaotalk" value="https://pf.kakao.com/_Cywfxb"/>
+		<key key="contact:instagram" value="gongcha.official"/>
+		<key key="contact:facebook" value="https://www.facebook.com/GongCha.Korea"/>
+		<key key="contact:kakaotalk" value="https://pf.kakao.com/_Cywfxb"/>
     </item>
 	
 	<item icon="presets/food/cafe.svg" name="dal.komm coffee" ko.name="달콤커피" type="node,relation,closedway,multipolygon">
@@ -1892,8 +1892,8 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="https://www.mega-mgccoffee.com/"/>
-		<key key="contect:instagram" value="mega_mgc_coffee"/>
-		<key key="contect:facebook" value="https://www.facebook.com/megamgccoffee1"/>
+		<key key="contact:instagram" value="mega_mgc_coffee"/>
+		<key key="contact:facebook" value="https://www.facebook.com/megamgccoffee1"/>
     </item>
 	
     <item icon="presets/food/cafe.svg" name="Paik's Coffee" ko.name="빽다방" type="node,relation,closedway,multipolygon">
@@ -2603,8 +2603,8 @@ baselanguage="en">
         <key key="website" value="http://www.bongousse.net/"/>
         <key key="brand:wikidata" value="Q21058196"/>
         <key key="brand:wikipedia" value="ko:봉구스밥버거"/>
-		<key key="contect:instagram" value="bongousse_korea"/>
-		<key key="contect:facebook" value="https://www.facebook.com/qkqqjrj"/>
+		<key key="contact:instagram" value="bongousse_korea"/>
+		<key key="contact:facebook" value="https://www.facebook.com/qkqqjrj"/>
     </item>
 
 	<item icon="presets/food/fast_food.svg" name="Popeyes" ko.name="파파이스" type="node,relation,closedway,multipolygon">
@@ -2672,9 +2672,9 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="https://frankburger.co.kr"/>
-		<key key="contect:instagram" value="frankburger_official_"/>
-		<key key="contect:facebook" value="https://www.facebook.com/twoozzim"/>
-		<key key="contect:youtube" value="https://www.youtube.com/channel/UCo3DjdEjQrr8uD_-YUt8mnA"/>
+		<key key="contact:instagram" value="frankburger_official_"/>
+		<key key="contact:facebook" value="https://www.facebook.com/twoozzim"/>
+		<key key="contact:youtube" value="https://www.youtube.com/channel/UCo3DjdEjQrr8uD_-YUt8mnA"/>
     </item>
 </group>
 	
@@ -3563,7 +3563,7 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
         <key key="website" value="http://puradakchicken.com"/>
-		<key key="contect:facebook" value="https://www.facebook.com/puradak"/>
+		<key key="contact:facebook" value="https://www.facebook.com/puradak"/>
     </item>
 	
 	<item icon="presets/food/fast_food.svg" name="Pizza Nation Chicken Girl" ko.name="피자나라 치킨공주" type="node,relation,closedway,multipolygon">
