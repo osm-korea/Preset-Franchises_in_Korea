@@ -3986,7 +3986,7 @@ baselanguage="en">
 		<reference ref="internet"/>
 		<reference ref="wi-fi"/>
 		
-        <key key="website" value="http://www.oliveyoung.co.kr"/>
+        <key key="website" value="https://www.oliveyoung.co.kr"/>
         <key key="brand:wikidata" value="Q55643246"/>
         <key key="brand:wikipedia" value="ko:올리브영"/>
     </item>
