@@ -2025,7 +2025,7 @@ baselanguage="en">
 		<reference ref="internet"/>
 		<reference ref="wi-fi"/>
 		
-        <key key="website" value="http://www.angelinus.com/"/>
+        <key key="website" value="https://www.lotteeatz.com"/>
         <key key="brand:wikidata" value="Q12606781"/>
         <key key="brand:wikipedia" value="ko:엔제리너스"/>
     </item>
