@@ -2449,7 +2449,7 @@ baselanguage="en">
         <reference ref="takeaway_default"/>
 		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
-        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,11:00-23:00,11:00-22:30,12:00-23:30,12:00-23:00"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="Mo-Su 11:00-21:30"/>
 		<reference ref="wheelchair"/>
 		
 		<item_separator />
@@ -2463,6 +2463,9 @@ baselanguage="en">
         <key key="website" value="http://www.momstouch.co.kr"/>
         <key key="brand:wikidata" value="Q23044856"/>
         <key key="brand:wikipedia" value="ko:맘스터치"/>
+		<key key="contact:instagram" value="momstouch.love"/>
+		<key key="contact:facebook" value="https://www.facebook.com/momstouchmain"/>
+		<key key="contact:youtube" value="https://www.youtube.com/channel/UCOwRjHPzIh3Xlayb85N1aCQ"/>
     </item>
 	
 	<item icon="presets/food/fast_food.svg" name="McDonald's" ko.name="맥도날드" type="node,relation,closedway,multipolygon">
@@ -3090,11 +3093,12 @@ baselanguage="en">
         <text default="맘스터치" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Mom's Touch" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
+		<key key="name:ja" value="マムズタッチ"/>
         <reference ref="level_1_default"/>
         <reference ref="takeaway_default"/>
 		<reference ref="delivery_default"/>
 		<reference ref="drive_through"/>
-        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,11:00-23:00,11:00-22:30,12:00-23:30,12:00-23:00"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="Mo-Su 11:00-21:30"/>
 		<reference ref="wheelchair"/>
 		
 		<item_separator />
@@ -3108,6 +3112,9 @@ baselanguage="en">
         <key key="website" value="http://www.momstouch.co.kr"/>
         <key key="brand:wikidata" value="Q23044856"/>
         <key key="brand:wikipedia" value="ko:맘스터치"/>
+		<key key="contact:instagram" value="momstouch.love"/>
+		<key key="contact:facebook" value="https://www.facebook.com/momstouchmain"/>
+		<key key="contact:youtube" value="https://www.youtube.com/channel/UCOwRjHPzIh3Xlayb85N1aCQ"/>
     </item>
 	
 	<item icon="presets/food/fast_food.svg" name="Mexican Chicken(맥)" ko.name="맥시칸치킨" type="node,relation,closedway,multipolygon">
