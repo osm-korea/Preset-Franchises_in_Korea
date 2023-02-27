@@ -2,7 +2,7 @@
 <presets
 xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 author="LuxuryCoop"
-version="1_2023-02-22"
+version="1_2023-02-27"
 description="Main franchises in South Korea"
 ko.description="대한민국 내의 주요 프랜차이즈"
 shortdescription="Franchises in Korea"
@@ -635,6 +635,46 @@ baselanguage="en">
 	</item>
 </group>
 
+<group icon="presets/food/ice_cream.svg" name="Ice Cream" ko.name="아이스크림">
+	<item icon="presets/food/ice_cream.svg" name="Baskin-Robbins" ko.name="배스킨라빈스" type="node,relation,closedway,multipolygon">
+        <label text="Baskin-Robbins" ko.text="배스킨라빈스"/>
+        <key key="amenity" value="ice_cream"/>
+        <key key="brand" value="배스킨라빈스"/>
+        <key key="brand:en" value="Baskin-Robbins"/>
+        <key key="operator" value="비알코리아(주)"/>
+        <key key="operator:en" value="B-R Korea Co., Ltd."/>
+		
+        <text default="배스킨라빈스" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="배스킨라빈스" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Baskin-Robbins" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+		<key key="name:zh" value="31冰淇淋"/>
+		<key key="name:ja" value="バスキン・ロビンス"/>
+		<key key="int_name" value="Baskin-Robbins"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery"/>
+		<reference ref="drive_through"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-23:00,10:00-24:00,24/7"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="http://www.baskinrobbins.co.kr"/>
+        <key key="brand:wikidata" value="Q584601"/>
+        <key key="brand:wikipedia" value="ko:배스킨라빈스"/>
+		<key key="contact:instagram" value="baskinrobbinskorea"/>
+		<key key="contact:facebook" value="https://www.facebook.com/baskinrobbins.kr"/>
+		<key key="contact:twitter" value="BaskinrobbinsKR"/>
+		<key key="contact:youtube" value="https://www.youtube.com/user/baskinrobbinskorea"/>
+    </item>
+</group>
 
 <group icon="presets/money/bank.svg" name="Bank" ko.name="은행">
 	<item icon="presets/money/bank.svg" name="Industrial Bank of Korea" ko.name="IBK기업은행" type="node,relation,closedway,multipolygon">
