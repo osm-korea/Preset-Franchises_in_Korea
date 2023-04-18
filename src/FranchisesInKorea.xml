@@ -2,7 +2,7 @@
 <presets
 xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
 author="LuxuryCoop"
-version="1_2023-02-27"
+version="1_2023-04-18"
 description="Main franchises in South Korea"
 ko.description="대한민국 내의 주요 프랜차이즈"
 shortdescription="Franchises in Korea"
@@ -3829,6 +3829,32 @@ baselanguage="en">
         <key key="website" value="https://www.ministop.co.kr/"/>
         <key key="brand:wikidata" value="Q1038929"/>
         <key key="brand:wikipedia" value="ko:미니스톱"/>
+    </item>
+	
+	<item icon="presets/shop/convenience.svg" name="Allibuy" ko.name="알리바이" type="node,relation,closedway,multipolygon">
+        <label text="Allibuy" ko.text="알리바이"/>
+        <key key="shop" value="convenience"/>
+        <key key="brand" value="Allibuy"/>
+        <key key="operator" value="(주)정석"/>
+		
+        <text default="알리바이" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="알리바이" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Allibuy" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="06:00-01:00,06:00-24:00,24/7"/>
+		<reference ref="wheelchair"/>
+		<reference ref="outdoor_seating"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="http://www.allibuy.com/index.php"/>
     </item>
 
     <item icon="Franchises_in_Korea/logo/Seven_Eleven.svg" name="7-Eleven" ko.name="세븐일레븐" type="node,relation,closedway,multipolygon">
