@@ -572,7 +572,7 @@ baselanguage="en">
 		<label text="Chaesundang" ko.text="채선당"/>
 		<space />
         <key key="amenity" value="restaurant"/>
-        <key key="cuisine" value="Japanese;shabu-shabu"/>
+        <key key="cuisine" value="japanese;shabu-shabu"/>
         <key key="brand" value="채선당"/>
         <key key="brand:en" value="Chaesundang"/>
         <key key="operator" value="채선당"/>
@@ -606,7 +606,7 @@ baselanguage="en">
 		<label text="Ebadom" ko.text="이바돔감자탕"/>
 		<space />
         <key key="amenity" value="restaurant"/>
-        <key key="cuisine" value="Korean"/>
+        <key key="cuisine" value="korean"/>
         <key key="brand" value="이바돔감자탕"/>
         <key key="brand:en" value="Ebadom"/>
         <key key="operator" value="(주)이바돔"/>
