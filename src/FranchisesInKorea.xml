@@ -236,7 +236,7 @@ baselanguage="en">
 </group>
 
 <group icon="presets/shop/laundry.svg" name="Laundry Shop" ko.name="빨래방/세탁소">
-	<item icon="presets/food/restaurant.svg" name="Cleantopia" ko.name="크린토피아" type="node,relation,closedway,multipolygon">
+	<item icon="presets/shop/laundry.svg" name="Cleantopia" ko.name="크린토피아" type="node,relation,closedway,multipolygon">
 		<label text="Cleantopia" ko.text="크린토피아"/>
 		<space />
         <key key="shop" value="laundry"/>
