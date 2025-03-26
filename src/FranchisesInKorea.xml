@@ -3734,37 +3734,6 @@ baselanguage="en">
         <key key="website" value="http://pncg.co.kr"/>
     </item>
 	
-	<item icon="presets/food/fast_food.svg" name="Pizza School" ko.name="피자스쿨" type="node,relation,closedway,multipolygon">
-        <label text="Pizza School" ko.text="피자스쿨"/>
-		<space />
-        <key key="amenity" value="fast_food"/>
-        <key key="cuisine" value="pizza"/>
-        <key key="brand" value="피자스쿨"/>
-        <key key="brand:en" value="Pizza School"/>
-        <key key="operator" value="피자스쿨"/>
-		<key key="operator:en" value="Pizza School"/>
-		
-        <text default="피자스쿨" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
-        <text default="피자스쿨" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
-        <text default="Pizza School" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
-        <reference ref="branch"/>
-        <reference ref="level_1_default"/>
-        <reference ref="takeaway_default"/>
-		<reference ref="delivery_default"/>
-        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
-		<reference ref="wheelchair"/>
-		
-		<item_separator />
-		<reference ref="payment"/>
-		<reference ref="payment_optional"/>
-		
-		<item_separator />
-		<reference ref="internet"/>
-		<reference ref="wi-fi"/>
-		
-        <key key="website" value="http://pizzaschool.net"/>
-    </item>
-	
 	<item icon="presets/food/fast_food.svg" name="Hosigi" ko.name="호식이두마리치킨" type="node,relation,closedway,multipolygon">
         <label text="Hosigi" ko.text="호식이두마리치킨"/>
         <key key="amenity" value="fast_food"/>
@@ -3853,6 +3822,72 @@ baselanguage="en">
 		<reference ref="wi-fi"/>
 		
 		<key key="website" value="http://www.xn--5000-u97py65m.kr/"/>
+    </item>
+	
+	<item icon="presets/food/fast_food.svg" name="Domino's Pizza" ko.name="도미노피자" type="node,relation,closedway,multipolygon">
+        <label text="Domino's Pizza" ko.text="도미노피자"/>
+		<space />
+        <key key="amenity" value="fast_food"/>
+        <key key="cuisine" value="pizza"/>
+        <key key="brand" value="도미노피자"/>
+        <key key="brand:en" value="Domino's Pizza"/>
+        <key key="operator" value="도미노피자"/>
+		<key key="operator:en" value="Domino's Pizza"/>
+		
+        <text default="도미노피자" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="도미노피자" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Domino's Pizza" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+		<key key="name:ja" value="ドミノズ・ピザ"/>
+		<key key="name:zh" value="达美乐比萨"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="https://web.dominos.co.kr"/>
+        <key key="brand:wikidata" value="Q839466"/>
+        <key key="brand:wikipedia" value="ko:도미노피자"/>
+    </item>
+	
+	<item icon="presets/food/fast_food.svg" name="Pizza School" ko.name="피자스쿨" type="node,relation,closedway,multipolygon">
+        <label text="Pizza School" ko.text="피자스쿨"/>
+		<space />
+        <key key="amenity" value="fast_food"/>
+        <key key="cuisine" value="pizza"/>
+        <key key="brand" value="피자스쿨"/>
+        <key key="brand:en" value="Pizza School"/>
+        <key key="operator" value="피자스쿨"/>
+		<key key="operator:en" value="Pizza School"/>
+		
+        <text default="피자스쿨" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="피자스쿨" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Pizza School" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="12:00-00:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="http://pizzaschool.net"/>
     </item>
 </group>
 </group>
