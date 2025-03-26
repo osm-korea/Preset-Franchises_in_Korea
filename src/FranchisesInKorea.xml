@@ -240,7 +240,6 @@ baselanguage="en">
 		<label text="Cleantopia" ko.text="크린토피아"/>
 		<space />
         <key key="shop" value="laundry"/>
-		<key key="self_service" value="yes"/>
         <key key="brand" value="크린토피아"/>
         <key key="brand:en" value="Cleantopia"/>
         <key key="operator" value="크린토피아"/>
@@ -248,6 +247,35 @@ baselanguage="en">
         <text default="크린토피아" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="크린토피아" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
         <text default="Cleantopia" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="24/7"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+		
+        <key key="website" value="https://www.cleantopia.com/"/>
+		<key key="contact:instagram" value="cleantopia_official"/>
+	</item>
+	
+	<item icon="presets/shop/laundry.svg" name="Cleantopia CoinWash" ko.name="크린토피아 코인워시" type="node,relation,closedway,multipolygon">
+		<label text="Cleantopia CoinWash" ko.text="크린토피아 코인워시"/>
+		<space />
+        <key key="shop" value="laundry"/>
+		<key key="self_service" value="yes"/>
+        <key key="brand" value="크린토피아"/>
+        <key key="brand:en" value="Cleantopia"/>
+        <key key="operator" value="크린토피아"/>
+		
+        <text default="크린토피아 코인워시" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="크린토피아 코인워시" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Cleantopia CoinWash" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
         <reference ref="level_1_default"/>
         <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="24/7"/>
