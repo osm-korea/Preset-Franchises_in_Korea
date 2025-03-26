@@ -602,7 +602,7 @@ baselanguage="en">
 		<label text="Chaesundang" ko.text="채선당"/>
 		<space />
         <key key="amenity" value="restaurant"/>
-        <key key="cuisine" value="Japanese;shabu-shabu"/>
+        <key key="cuisine" value="japanese;shabu-shabu"/>
         <key key="brand" value="채선당"/>
         <key key="brand:en" value="Chaesundang"/>
         <key key="operator" value="채선당"/>
@@ -636,7 +636,7 @@ baselanguage="en">
 		<label text="Ebadom" ko.text="이바돔감자탕"/>
 		<space />
         <key key="amenity" value="restaurant"/>
-        <key key="cuisine" value="Korean"/>
+        <key key="cuisine" value="korean"/>
         <key key="brand" value="이바돔감자탕"/>
         <key key="brand:en" value="Ebadom"/>
         <key key="operator" value="(주)이바돔"/>
@@ -2431,7 +2431,7 @@ baselanguage="en">
         <key key="amenity" value="fast_food"/>
         <key key="cuisine" value="sandwich;cookie"/>
         <key key="brand" value="서브웨이"/>
-		<key key="brand" value="Subway"/>
+        <key key="brand:en" value="Subway"/>
         <key key="operator" value="SUBWAY"/>
 		
         <text default="서브웨이" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
@@ -3994,7 +3994,7 @@ baselanguage="en">
 		<text default="Naughty Cat" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
         <reference ref="branch"/>
 		<key key="name:zh" value="悪いネコ"/>
-		<key key="name:zh" value="淘气小猫"/>
+		<key key="name:zh_CN" value="淘气小猫"/>
 		<reference ref="level_1_default"/>
 		<combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="09:00-22:00,10:00-22:00,"/>
 		<reference ref="wheelchair"/>
