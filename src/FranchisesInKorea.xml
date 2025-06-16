@@ -329,6 +329,39 @@ baselanguage="en">
         <key key="brand:wikidata" value="Q12605137"/>
         <key key="brand:wikipedia" value="ko:감탄떡볶이"/>
 	</item>
+
+    <item icon="presets/food/restaurant.svg" name="Gimgane" ko.name="김가네" type="node,relation,closedway,multipolygon">
+		<label text="Gimgane" ko.text="김가네"/>
+		<space />
+        <key key="amenity" value="restaurant"/>
+        <key key="cuisine" value="korean"/>
+        <key key="brand" value="김가네"/>
+        <key key="brand:en" value="Gimgane"/>
+		
+        <text default="김가네" key="name" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="김가네" key="name:ko" text="Name(Korean)" ko.text="점포명(한국어)"/>
+        <text default="Gimgane" key="name:en" text="Name(English)" ko.text="점포명(영어)"/>
+        <reference ref="branch"/>
+        <reference ref="level_1_default"/>
+        <reference ref="takeaway_default"/>
+		<reference ref="delivery_default"/>
+        <combo key="opening_hours" text="Opening Hours" ko.text="영업 시간" values="10:00-22:00"/>
+		<reference ref="wheelchair"/>
+		
+		<item_separator />
+		<reference ref="payment"/>
+		<reference ref="payment_optional"/>
+		
+		<item_separator />
+		<reference ref="internet"/>
+		<reference ref="wi-fi"/>
+        
+        <key key="website" value="http://www.gimgane.co.kr/"/>
+		<key key="contact:instagram" value="gimgane_official"/>
+		<key key="contact:facebook" value="https://www.facebook.com/gimgane7127"/>
+		<key key="contact:youtube" value="https://www.youtube.com/@%EA%B9%80%EA%B0%80%EB%84%A4-j5r"/>
+	</item>
+	
 	
 	<item icon="presets/food/restaurant.svg" name="Gimbap Nara" ko.name="김밥나라" type="node,relation,closedway,multipolygon">
 		<label text="Gimbap Nara" ko.text="김밥나라"/>
@@ -422,7 +455,8 @@ baselanguage="en">
 		
         <key key="website" value="https://myungranghotdog.com"/>
 		<key key="contact:instagram" value="myungranghotdog_official"/>
-		<key key="contact:facebook" value="https://www.instagram.com/myungrang_sidae"/>
+		<key key="contact:tiktok" value="myungrang"/>
+		<key key="contact:youtube" value="https://www.youtube.com/@myungranghotdog"/>
 	</item>
 	
 	<item icon="presets/food/restaurant.svg" name="Sinjeon Topokki" ko.name="신전떡볶이" type="node,relation,closedway,multipolygon">
